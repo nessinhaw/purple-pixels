@@ -34,24 +34,26 @@
 
       <div class="row mt-4 mb-4">
         <div class="col-md-6">
-          <div class="card flex-md-row-reverse">
+          <div class="card flex-md-row-reverse border-0">
             <div class="card-body d-flex flex-column align-items-start">
-              <h5 class="card-title">Card title</h5>
+              <p class="card-text"><a href="#" class="badge badge-dark">Jogo da Semana</a></p>
+              <h5 class="card-title">Nome do jogo</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p class="card-text"><a href="">Review</a>, <a href="">Guias</a></p>
             </div>
-            <img class="card-img-top flex-auto d-none d-lg-block" src="img/sample-01.jpg" width="250px" height="auto" alt="Card image cap">
+            <img class="card-img-top flex-auto d-none d-lg-block rounded-left" src="img/onmyoji-sample.JPG" width="auto" height="auto" alt="Card image cap">
           </div>
         </div>
 
         <div class="col-md-6">
-          <div class="card flex-md-row-reverse">
+          <div class="card flex-md-row-reverse border-0">
               <div class="card-body d-flex flex-column align-items-start">
-                <h5 class="card-title">Card title</h5>
+                <p class="card-text"><a href="#" class="badge badge-dark">Destaque da semana</a></p>
+                <h5 class="card-title">Titulo do post</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <p class="card-text"><a href="">Leia mais</a></p>
               </div>
-              <img class="card-img-top flex-auto d-none d-lg-block" src="img/sample-01.jpg" width="250px" height="auto" alt="Card image cap">
+              <img class="card-img-top flex-auto d-none d-lg-block rounded-left" src="img/onmyoji-sample.JPG" width="auto" height="auto" alt="Card image cap">
             </div>
           </div>
       </div>
