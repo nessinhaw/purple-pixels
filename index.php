@@ -12,10 +12,10 @@
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand mx-auto" href="#">Nome do Blog</a>
+      <a class="navbar-brand mx-auto p-3" href="#">Nome do Blog</a>
     </nav>
 
-    <ul class="nav nav-pills justify-content-center">
+    <ul class="nav nav-pills justify-content-center mt-3 mb-4">
       <li class="nav-item">
         <a class="nav-link" href="#">Notícias</a>
       </li>
@@ -26,37 +26,40 @@
         <a class="nav-link" href="#">Guias</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="#">Tecnologia</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#">Eventos</a>
       </li>
     </ul>
 
     <div class="container">
 
-      <div class="row mt-4 mb-4">
+      <div class="row mb-3">
         <div class="col-md-6">
-          <div class="card flex-md-row-reverse border-0">
+          <div class="card flex-md-row-reverse mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
               <p class="card-text"><a href="#" class="badge badge-dark">Jogo da Semana</a></p>
-              <h5 class="card-title">Nome do jogo</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <p class="card-text"><a href="">Review</a>, <a href="">Guias</a></p>
+              <h3 class="card-title"><a href="#">Titulo do jogo</a></h3>
+              <p class="card-text mb-2">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in.</p>
+              <p class="card-text pt-2 mb-auto"><a href="#" class="card-link">Review</a> <a href="#" class="card-link">Guias</a></p>
             </div>
-            <img class="card-img-top flex-auto d-none d-lg-block rounded-left" src="img/onmyoji-sample.JPG" width="auto" height="auto" alt="Card image cap">
+            <img class="flex-auto d-none d-lg-block" width="200" height="261" src="img/onmyoji-sample.JPG" alt="Card image cap">
           </div>
         </div>
-
         <div class="col-md-6">
-          <div class="card flex-md-row-reverse border-0">
-              <div class="card-body d-flex flex-column align-items-start">
-                <p class="card-text"><a href="#" class="badge badge-dark">Destaque da semana</a></p>
-                <h5 class="card-title">Titulo do post</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p class="card-text"><a href="">Leia mais</a></p>
-              </div>
-              <img class="card-img-top flex-auto d-none d-lg-block rounded-left" src="img/onmyoji-sample.JPG" width="auto" height="auto" alt="Card image cap">
+          <div class="card flex-md-row-reverse mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <p class="card-text"><a href="#" class="badge badge-dark">Destaque da Semana</a></p>
+              <h3 class="card-title"><a href="#">Titulo do post</a></h3>
+              <p class="card-text mb-2">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in.</p>
+              <p class="card-text pt-2 mb-auto"><a href="#" class="card-link">Leia mais</a></p>
             </div>
+            <img class="flex-auto d-none d-lg-block" width="200" height="261" src="img/onmyoji-sample.JPG" alt="Card image cap">
           </div>
+        </div>
       </div>
+
 
       <div class="row">
 
@@ -190,14 +193,16 @@
             </div>
 
           </div>
+
+          <div class="d-flex justify-content-center mt-3"><a class="btn btn-primary" href="#" role="button">Carregar mais</a></div>
         </div>
         <!--LOOP END-->
 
       </div>
     </div>
 
-    <footer class="footer bg-dark text-white">
-      <div class="container mt-3">
+    <footer class="footer bg-dark text-white mt-5">
+      <div class="container">
         <div class="row">
           <div class="col mt-3">
             <h5>Arquivo</h5>
