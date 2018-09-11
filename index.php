@@ -5,31 +5,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Arvo|Montserrat|Playfair+Display:700" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/theme.css" />
 
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand mx-auto p-3" href="#">Nome do Blog</a>
+    <nav class="navbar nav-bg">
+      <a class="navbar-brand mx-auto p-3 brand" href="#">Nome do Blog</a>
     </nav>
 
-    <ul class="nav nav-pills justify-content-center mt-3 mb-4">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Notícias</a>
+    <ul class="nav justify-content-center mt-1 mb-4 nav-cat-bg">
+      <li class="nav-item p-2">
+        <a class="nav-link nav-cat-link" href="#">Notícias</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Reviews</a>
+      <li class="nav-item p-2">
+        <a class="nav-link nav-cat-link" href="#">Reviews</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Guias</a>
+      <li class="nav-item p-2">
+        <a class="nav-link nav-cat-link" href="#">Guias</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Tecnologia</a>
+      <li class="nav-item p-2">
+        <a class="nav-link nav-cat-link" href="#">Tecnologia</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Eventos</a>
+      <li class="nav-item p-2">
+        <a class="nav-link nav-cat-link" href="#">Eventos</a>
       </li>
     </ul>
 
@@ -39,23 +43,23 @@
         <div class="col-md-6">
           <div class="card flex-md-row-reverse mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
-              <p class="card-text"><a href="#" class="badge badge-dark">Jogo da Semana</a></p>
-              <h3 class="card-title"><a href="#">Titulo do jogo</a></h3>
+              <p class="card-text"><a href="#" class="badge cat-badge cat-badge-link">Jogo da Semana</a></p>
+              <h3 class="card-title"><a class="card-title" href="#">Titulo do jogo</a></h3>
               <p class="card-text mb-2">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in.</p>
               <p class="card-text pt-2 mb-auto"><a href="#" class="card-link">Review</a> <a href="#" class="card-link">Guias</a></p>
             </div>
-            <img class="flex-auto d-none d-lg-block" width="200" height="261" src="img/onmyoji-sample.JPG" alt="Card image cap">
+            <img class="flex-auto d-none d-lg-block" width="210" height="285" src="img/onmyoji-sample.JPG" alt="Card image cap">
           </div>
         </div>
         <div class="col-md-6">
           <div class="card flex-md-row-reverse mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
-              <p class="card-text"><a href="#" class="badge badge-dark">Destaque da Semana</a></p>
-              <h3 class="card-title"><a href="#">Titulo do post</a></h3>
+              <p class="card-text"><a href="#" class="badge cat-badge cat-badge-link">Destaque da Semana</a></p>
+              <h3 class="card-title"><a class="card-title" href="#">Titulo do post</a></h3>
               <p class="card-text mb-2">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in.</p>
               <p class="card-text pt-2 mb-auto"><a href="#" class="card-link">Leia mais</a></p>
             </div>
-            <img class="flex-auto d-none d-lg-block" width="200" height="261" src="img/onmyoji-sample.JPG" alt="Card image cap">
+            <img class="flex-auto d-none d-lg-block" width="210" height="285" src="img/onmyoji-sample.JPG" alt="Card image cap">
           </div>
         </div>
       </div>
@@ -67,13 +71,13 @@
         <div class="col">
           <div class="card-columns">
 
-            <div class="card">
+            <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge badge-dark">Notícias</a>
-                  <a href="#" class="badge badge-dark">Mobile</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">Notícias</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">Mobile</a>
                 </p>
-                <h5 class="card-title"><a href="#">Titulo do post</a></h5>
+                <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content. This is another card with title and supporting text below.</p>
                 <p class="card-text"><a href="">Leia mais</a></p>
@@ -81,13 +85,13 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge badge-dark">Notícias</a>
-                  <a href="#" class="badge badge-dark">PC</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">Notícias</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">PC</a>
                 </p>
-                <h5 class="card-title"><a href="#">Titulo do post</a></h5>
+                <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content. This card has some additional content to make it slightly taller overall.</p>
                 <p class="card-text"><a href="">Leia mais</a></p>
@@ -95,13 +99,13 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge badge-dark">Reviews</a>
-                  <a href="#" class="badge badge-dark">PC</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">Reviews</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">PC</a>
                 </p>
-                <h5 class="card-title"><a href="#">Titulo do post</a></h5>
+                <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content. This is another card with title and supporting text below. This is another card with title and supporting text below.</p>
                 <p class="card-text"><a href="">Leia mais</a></p>
@@ -109,13 +113,13 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge badge-dark">Guias</a>
-                  <a href="#" class="badge badge-dark">Mobile</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">Guias</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">Mobile</a>
                 </p>
-                <h5 class="card-title"><a href="#">Titulo do post</a></h5>
+                <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content. This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
                 <p class="card-text"><a href="">Leia mais</a></p>
@@ -123,12 +127,12 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge badge-dark">Eventos</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">Eventos</a>
                 </p>
-                <h5 class="card-title"><a href="#">Titulo do post</a></h5>
+                <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                 <p class="card-text"><a href="">Leia mais</a></p>
@@ -136,13 +140,13 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge badge-dark">Notícias</a>
-                  <a href="#" class="badge badge-dark">Mobile</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">Notícias</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">Mobile</a>
                 </p>
-                <h5 class="card-title"><a href="#">Titulo do post</a></h5>
+                <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content. This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
                 <p class="card-text"><a href="">Leia mais</a></p>
@@ -150,13 +154,13 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge badge-dark">Notícias</a>
-                  <a href="#" class="badge badge-dark">Mobile</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">Notícias</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">Mobile</a>
                 </p>
-                <h5 class="card-title"><a href="#">Titulo do post</a></h5>
+                <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content. This is another card with title and supporting text below.</p>
                 <p class="card-text"><a href="">Leia mais</a></p>
@@ -164,13 +168,13 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge badge-dark">Reviews</a>
-                  <a href="#" class="badge badge-dark">PC</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">Reviews</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">PC</a>
                 </p>
-                <h5 class="card-title"><a href="#">Titulo do post</a></h5>
+                <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content. This is another card with title and supporting text below. This is another card with title and supporting text below.</p>
                 <p class="card-text"><a href="">Leia mais</a></p>
@@ -178,13 +182,13 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge badge-dark">Guias</a>
-                  <a href="#" class="badge badge-dark">Mobile</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">Guias</a>
+                  <a href="#" class="badge cat-badge cat-badge-link">Mobile</a>
                 </p>
-                <h5 class="card-title"><a href="#">Titulo do post</a></h5>
+                <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content. This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
                 <p class="card-text"><a href="">Leia mais</a></p>
@@ -193,33 +197,71 @@
             </div>
 
           </div>
-
-          <div class="d-flex justify-content-center mt-3"><a class="btn btn-primary" href="#" role="button">Carregar mais</a></div>
         </div>
         <!--LOOP END-->
 
       </div>
     </div>
 
-    <footer class="footer bg-dark text-white mt-5">
+    <footer class="footer footer-bg mt-5">
       <div class="container">
-        <div class="row">
-          <div class="col mt-3">
-            <h5>Arquivo</h5>
-            <ul>
-              <li><a href="#">Dezembro 2018</a></li>
-              <li>Novembro 2018</li>
-              <li>Outubro 2018</li>
-              <li>Setembro 2018</li>
-            </ul>
+        <div class="row ">
+          <div class="col-sm mt-4 mb-4">
+            
+              <div>
+                <h5 class="pb-3 footer-title">Arquivo</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><a href="#">Dezembro 2018</a></li>
+                  <li class="list-group-item">Novembro 2018</li>
+                  <li class="list-group-item">Outubro 2018</li>
+                  <li class="list-group-item">Setembro 2018</li>
+                </ul>
+              </div>
+
           </div>
 
-          <div class="col mt-3">
-            <h5>Autores</h5>
+          <div class="col-sm mt-4 mb-4">
+
+              <div>
+                <h5 class="pb-3 footer-title">Quem escreve?</h5>
+                <ul class="list-unstyled">
+                  <li class="media">
+                    <img class="mr-3 rounded-circle" src="img/sample-01.JPG" width="64" height="64" alt="Generic placeholder image">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1"><a href="#">Pessoa 1</a></h5>
+                      <p>Breve introdução sobre o autor.</p>
+                    </div>
+                  </li>
+                  <li class="media my-4">
+                    <img class="mr-3 rounded-circle" src="img/sample-01.JPG" width="64" height="64" alt="Generic placeholder image">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1"><a href="#">Pessoa 2</a></h5>
+                      <p>Breve introdução sobre o autor.</p>
+                    </div>
+                  </li>
+                </ul>
+            </div>
+
           </div>
 
-          <div class="col mt-3">
-            <h5>Top Tags</h5>
+          <div class="col-sm mt-4 mb-4">
+            <div class="mb-5">
+              <h5 class="pb-3 footer-title">Newsletter</h5>
+              <form>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div>
+              <h5 class="pb-2 footer-title">Sobre</h5>
+              <p>Algum texto legal sobre o blog.</p>
+            </div>
+
           </div>
         </div>
       </div>

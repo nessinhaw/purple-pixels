@@ -1,0 +1,67 @@
+body{
+	background-color: #EAEAEA;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a:link, a:visited{
+	color: #893168;
+}
+a:hover, a:active{
+	color: #050404;
+	text-decoration: none;
+}
+
+.nav-bg{
+	background-color: transparent;
+	border-bottom: 2px solid #893168;
+}
+
+a.brand:link, a.brand:visited{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 40px;
+	color: #050404;
+}
+
+.nav-cat-bg{
+	background-color: #050404;
+}
+
+a.nav-cat-link:link, a.nav-cat-link:visited{
+	color: #EAEAEA;
+}
+
+a.nav-cat-link:hover, a.nav-cat-link:active{
+	color: #893168;
+}
+
+.cat-badge{
+	background-color: #893168;
+}
+
+a.cat-badge-link:link, a.cat-badge-link:visited{
+	color: #EAEAEA;
+}
+
+a.cat-badge-link:hover, a.cat-badge-link:active{
+	color: #050404;
+}
+
+a.card-title:link, a.card-title:visited{
+	font-family: 'Arvo', serif;
+	color: #050404;
+}
+
+a.card-title:hover, a.card-title:active{
+	font-family: 'Arvo', serif;
+	color: #893168;
+	text-decoration: none;
+}
+
+.footer-bg{
+	background-color: #050404;
+	color: #EAEAEA;
+}
+
+.footer-title{
+	font-family: 'Arvo', serif;
+}
