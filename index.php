@@ -21,19 +21,19 @@
 
     <ul class="nav justify-content-center mt-1 mb-4 nav-cat-bg">
       <li class="nav-item p-2">
-        <a class="nav-link nav-cat-link" href="#">Notícias</a>
+        <a class="nav-link nav-cat-noticias" href="#">Notícias</a>
       </li>
       <li class="nav-item p-2">
-        <a class="nav-link nav-cat-link" href="#">Reviews</a>
+        <a class="nav-link nav-cat-reviews" href="#">Reviews</a>
       </li>
       <li class="nav-item p-2">
-        <a class="nav-link nav-cat-link" href="#">Guias</a>
+        <a class="nav-link nav-cat-guias" href="#">Guias</a>
       </li>
       <li class="nav-item p-2">
-        <a class="nav-link nav-cat-link" href="#">Tecnologia</a>
+        <a class="nav-link nav-cat-tecnologia" href="#">Tecnologia</a>
       </li>
       <li class="nav-item p-2">
-        <a class="nav-link nav-cat-link" href="#">Eventos</a>
+        <a class="nav-link nav-cat-eventos" href="#">Eventos</a>
       </li>
     </ul>
 
@@ -43,7 +43,7 @@
         <div class="col-md-6">
           <div class="card flex-md-row-reverse mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
-              <p class="card-text"><a href="#" class="badge cat-badge cat-badge-link">Jogo da Semana</a></p>
+              <p class="card-text"><a href="#" class="badge cat-jogo-semana cat-badge-link">Jogo da Semana</a></p>
               <h3 class="card-title"><a class="card-title" href="#">Titulo do jogo</a></h3>
               <p class="card-text mb-2">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in.</p>
               <p class="card-text pt-2 mb-auto"><a href="#" class="card-link">Review</a> <a href="#" class="card-link">Guias</a></p>
@@ -54,7 +54,7 @@
         <div class="col-md-6">
           <div class="card flex-md-row-reverse mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
-              <p class="card-text"><a href="#" class="badge cat-badge cat-badge-link">Destaque da Semana</a></p>
+              <p class="card-text"><a href="#" class="badge cat-destaque-semana cat-badge-link">Destaque da Semana</a></p>
               <h3 class="card-title"><a class="card-title" href="#">Titulo do post</a></h3>
               <p class="card-text mb-2">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in.</p>
               <p class="card-text pt-2 mb-auto"><a href="#" class="card-link">Leia mais</a></p>
@@ -74,8 +74,8 @@
             <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge cat-badge cat-badge-link">Notícias</a>
-                  <a href="#" class="badge cat-badge cat-badge-link">Mobile</a>
+                  <a href="#" class="badge cat-noticias cat-badge-link">Notícias</a>
+                  <a href="#" class="badge cat-mobile cat-badge-link">Mobile</a>
                 </p>
                 <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
@@ -88,8 +88,8 @@
             <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge cat-badge cat-badge-link">Notícias</a>
-                  <a href="#" class="badge cat-badge cat-badge-link">PC</a>
+                  <a href="#" class="badge cat-noticias cat-badge-link">Notícias</a>
+                  <a href="#" class="badge cat-pc cat-badge-link">PC</a>
                 </p>
                 <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
@@ -102,8 +102,8 @@
             <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge cat-badge cat-badge-link">Reviews</a>
-                  <a href="#" class="badge cat-badge cat-badge-link">PC</a>
+                  <a href="#" class="badge cat-reviews cat-badge-link">Reviews</a>
+                  <a href="#" class="badge cat-pc cat-badge-link">PC</a>
                 </p>
                 <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
@@ -116,8 +116,8 @@
             <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge cat-badge cat-badge-link">Guias</a>
-                  <a href="#" class="badge cat-badge cat-badge-link">Mobile</a>
+                  <a href="#" class="badge cat-guias cat-badge-link">Guias</a>
+                  <a href="#" class="badge cat-mobile cat-badge-link">Mobile</a>
                 </p>
                 <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
@@ -130,7 +130,7 @@
             <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge cat-badge cat-badge-link">Eventos</a>
+                  <a href="#" class="badge cat-eventos cat-badge-link">Eventos</a>
                 </p>
                 <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
@@ -143,8 +143,8 @@
             <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge cat-badge cat-badge-link">Notícias</a>
-                  <a href="#" class="badge cat-badge cat-badge-link">Mobile</a>
+                  <a href="#" class="badge cat-noticias cat-badge-link">Notícias</a>
+                  <a href="#" class="badge cat-mobile cat-badge-link">Mobile</a>
                 </p>
                 <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
@@ -157,8 +157,7 @@
             <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge cat-badge cat-badge-link">Notícias</a>
-                  <a href="#" class="badge cat-badge cat-badge-link">Mobile</a>
+                  <a href="#" class="badge cat-tecnologia cat-badge-link">Tecnologia</a>
                 </p>
                 <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
@@ -171,8 +170,8 @@
             <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge cat-badge cat-badge-link">Reviews</a>
-                  <a href="#" class="badge cat-badge cat-badge-link">PC</a>
+                  <a href="#" class="badge cat-reviews cat-badge-link">Reviews</a>
+                  <a href="#" class="badge cat-pc cat-badge-link">PC</a>
                 </p>
                 <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
@@ -185,8 +184,8 @@
             <div class="card shadow-sm">
               <div class="card-body">
                 <p class="card-text">
-                  <a href="#" class="badge cat-badge cat-badge-link">Guias</a>
-                  <a href="#" class="badge cat-badge cat-badge-link">Mobile</a>
+                  <a href="#" class="badge cat-guias cat-badge-link">Guias</a>
+                  <a href="#" class="badge cat-mobile cat-badge-link">Mobile</a>
                 </p>
                 <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
