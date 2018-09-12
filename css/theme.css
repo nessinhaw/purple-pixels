@@ -4,7 +4,7 @@ body{
 }
 
 a:link, a:visited{
-	color: #5b5252;
+	color: #3a3a3a;
 }
 a:hover, a:active{
 	color: #050404;
@@ -43,13 +43,13 @@ a.nav-cat-tecnologia:link, a.nav-cat-tecnologia:visited{
 }
 
 a.nav-cat-eventos:link, a.nav-cat-eventos:visited{
-	color: #dbd70d;
+	color: #00bc57;
 }
 
 a.nav-cat-noticias:hover, a.nav-cat-noticias:active,
 a.nav-cat-reviews:hover, a.nav-cat-reviews:active, a.nav-cat-guias:hover, a.nav-cat-guias:hover,
 a.nav-cat-tecnologia:hover, a.nav-cat-tecnologia:hover, a.nav-cat-eventos:hover, a.nav-cat-eventos:active{
-	color: #EAEAEA;
+	color: #a8a1a1;
 }
 
 a.nav-cat-link:link, a.nav-cat-link:visited{
@@ -65,7 +65,7 @@ a.nav-cat-link:hover, a.nav-cat-link:active{
 }
 
 .cat-jogo-semana{
-	background-color: #04e058;
+	background-color: #00a9c6;
 }
 
 .cat-destaque-semana{
@@ -89,7 +89,7 @@ a.nav-cat-link:hover, a.nav-cat-link:active{
 }
 
 .cat-eventos{
-	background-color: #dbd70d;
+	background-color: #00bc57;
 }
 .cat-mobile{
 	background-color: #c115a7;
@@ -114,8 +114,25 @@ a.card-title:link, a.card-title:visited{
 
 a.card-title:hover, a.card-title:active{
 	font-family: 'Arvo', serif;
-	color: #893168;
+	color: #a8a1a1;
 	text-decoration: none;
+}
+
+.list-group-flush .list-group-item {
+    background-color: transparent;
+    padding-left: 0;
+}
+
+.list-group-item{
+	border-bottom: 1px solid #EAEAEA;
+}
+
+a.author1-link:link, a.author1-link:visited{
+	color: #7248ba;
+}
+
+a.author2-link:link, a.author2-link:visited{
+	color: #c45f25;
 }
 
 .footer-bg{
@@ -125,4 +142,13 @@ a.card-title:hover, a.card-title:active{
 
 .footer-title{
 	font-family: 'Arvo', serif;
+}
+
+a.footer-link:link, a.footer-link:visited{
+	color: #6b6b6b;
+}
+
+a.footer-link:hover, a.footer-link:active, a.author1-link:hover, a.author1-link:active, a.author2-link:hover, a.author2-link:active{
+	color: #a8a1a1;
+	text-decoration: none;
 }

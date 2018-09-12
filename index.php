@@ -210,10 +210,10 @@
               <div>
                 <h5 class="pb-3 footer-title">Arquivo</h5>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item"><a href="#">Dezembro 2018</a></li>
-                  <li class="list-group-item">Novembro 2018</li>
-                  <li class="list-group-item">Outubro 2018</li>
-                  <li class="list-group-item">Setembro 2018</li>
+                  <li class="list-group-item pt-0"><a class="footer-link" href="#">Dezembro 2018</a></li>
+                  <li class="list-group-item"><a class="footer-link" href="">Novembro 2018</a></li>
+                  <li class="list-group-item"><a class="footer-link" href="">Outubro 2018</a></li>
+                  <li class="list-group-item"><a class="footer-link" href="">Setembro 2018</a></li>
                 </ul>
               </div>
 
@@ -227,14 +227,14 @@
                   <li class="media">
                     <img class="mr-3 rounded-circle" src="img/sample-01.JPG" width="64" height="64" alt="Generic placeholder image">
                     <div class="media-body">
-                      <h5 class="mt-0 mb-1"><a href="#">Pessoa 1</a></h5>
+                      <h5 class="mt-0 mb-1"><a class="author1-link" href="#">Pessoa 1</a></h5>
                       <p>Breve introdução sobre o autor.</p>
                     </div>
                   </li>
                   <li class="media my-4">
                     <img class="mr-3 rounded-circle" src="img/sample-01.JPG" width="64" height="64" alt="Generic placeholder image">
                     <div class="media-body">
-                      <h5 class="mt-0 mb-1"><a href="#">Pessoa 2</a></h5>
+                      <h5 class="mt-0 mb-1"><a class="author2-link" href="#">Pessoa 2</a></h5>
                       <p>Breve introdução sobre o autor.</p>
                     </div>
                   </li>
