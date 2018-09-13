@@ -22,10 +22,10 @@
 
     <ul class="nav justify-content-center mt-1 mb-4 nav-cat-bg">
       <li class="nav-item p-2">
-        <a class="nav-link nav-cat-noticias" href="#">Notícias</a>
+        <a class="nav-link nav-cat-noticias" href="">Notícias</a>
       </li>
       <li class="nav-item p-2">
-        <a class="nav-link nav-cat-reviews" href="#">Reviews</a>
+        <a class="nav-link nav-cat-reviews" href="">Reviews</a>
       </li>
       <li class="nav-item p-2">
         <a class="nav-link nav-cat-guias" href="#">Guias</a>
@@ -40,7 +40,7 @@
 
     <div class="container">
 
-      <div class="row mb-3">
+      <div class="row mt-3 mb-3">
         <div class="col-md-6">
           <div class="card flex-md-row-reverse mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
@@ -64,14 +64,14 @@
           </div>
         </div>
       </div>
+      
+    </div>
 
+    <div class="container">
+      <div class="grid">
+          <div class="grid-sizer col-xs-4 col-md-6 col-lg-2 col-xl-2"></div>
 
-      <div class="row">
-
-        <!--LOOP START-->
-        <div class="col">
-          <div class="card-columns">
-
+          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -86,7 +86,9 @@
                 <p class="card-text"><small class="text-muted">13/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -101,7 +103,9 @@
                 <p class="card-text"><small class="text-muted">12/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -116,7 +120,9 @@
                 <p class="card-text"><small class="text-muted">11/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -131,7 +137,9 @@
                 <p class="card-text"><small class="text-muted">10/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -145,7 +153,9 @@
                 <p class="card-text"><small class="text-muted">09/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -160,7 +170,9 @@
                 <p class="card-text"><small class="text-muted">08/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -174,7 +186,9 @@
                 <p class="card-text"><small class="text-muted">07/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -189,7 +203,9 @@
                 <p class="card-text"><small class="text-muted">06/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -204,13 +220,9 @@
                 <p class="card-text"><small class="text-muted">05/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
-
           </div>
         </div>
-        <!--LOOP END-->
-
       </div>
-    </div>
 
     <footer class="footer footer-bg mt-5">
       <div class="container">
@@ -281,6 +293,9 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/teste.js"></script>
   </body>
 </html>
