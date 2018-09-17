@@ -60,6 +60,21 @@ a.nav-cat-link:hover, a.nav-cat-link:active{
 	color: #893168;
 }
 
+.btn:active,
+.btn.is-checked {
+  background-color: #28F;
+}
+
+.btn.is-checked {
+  color: white;
+}
+
+.grid-item{
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 15px;
+}
+
 .cat-badge{
 	background-color: #893168;
 }
@@ -152,19 +167,3 @@ a.footer-link:hover, a.footer-link:active, a.author1-link:hover, a.author1-link:
 	color: #a8a1a1;
 	text-decoration: none;
 }
-
-.grid-item{
-	padding-left: 5px;
-	padding-right: 5px;
-	margin-bottom: 15px;
-}
-
-
-.grid-item-content {
-  height: 100px;
-  background: #D26;
-  border: 2px solid hsla(0, 0%, 0%, 0.5);
-  border-radius: 5px;
-}
-
-.grid-item-content--height2 { height: 200px; }

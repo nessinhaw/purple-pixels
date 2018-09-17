@@ -15,42 +15,36 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Masonry - Bootstrap 3</h1>
+    <h1>Testing</h1>
 
-    <div class="container-fluid">
-      <!-- add extra container element for Masonry -->
-      <div class="grid">
-        <div class="grid-sizer col-xs-4 col-md-6 col-lg-2 col-xl-2"></div>
-        <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
-          <!-- add inner element for column content -->
-          <div class="grid-item-content">1 dddddddddddddddddddddddd</div>
+    <div id="filters" class="filters d-flex justify-content-center">
+      <div class="row">
+        <div class="col">
+          <div class="btn-group" data-filter-group="posts" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary" data-filter="">Todos</button>
+            <button type="button" class="btn btn-secondary" data-filter=".noticias">Noticias</button>
+            <button type="button" class="btn btn-secondary" data-filter=".reviews">Reviews</button>
+            <button type="button" class="btn btn-secondary" data-filter=".guias">Guias</button>
+            <button type="button" class="btn btn-secondary" data-filter=".tecnologia">Tecnologia</button>
+            <button type="button" class="btn btn-secondary" data-filter=".eventos">Eventos</button>
+          </div>
         </div>
-        <div class="grid-item col-xs-4 col-md-6 col-lg-3 col-xl-4">
-          <div class="grid-item-content">2 ddddddddddddddddddddddddddddddddddd</div>
-        </div>
-        <div class="grid-item col-xs-4 col-md-6 col-lg-3 col-xl-4">
-          <div class="grid-item-content grid-item-content--height2">3 dddddddddddddddddd</div>
-        </div>
-        <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
-          <div class="grid-item-content">4 ddddddddddddddd</div>
-        </div>
-        <div class="grid-item col-xs-4 col-md-6 col-lg-3 col-xl-4">
-          <div class="grid-item-content grid-item-content--height2">5 dddddddddddddd</div>
-        </div>
-        <div class="grid-item col-xs-4 col-md-6 col-lg-3 col-xl-4">
-          <div class="grid-item-content">6 ddddddddddd</div>
-        </div>
-        <div class="grid-item col-xs-4 col-md-6 col-lg-3 col-xl-4">
-          <div class="grid-item-content">7 dddddddd</div>
+
+      <div class="col">
+        <div class="btn-group" data-filter-group="posts2" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-secondary" data-filter="">Todos</button>
+          <button type="button" class="btn btn-secondary" data-filter=".mobile">Mobile</button>
+          <button type="button" class="btn btn-secondary" data-filter=".pc">PC</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="container">
+    <div class="container mt-3">
       <div class="grid">
           <div class="grid-sizer col-xs-4 col-md-6 col-lg-2 col-xl-2"></div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
+          <div class="grid-item noticias mobile col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -67,7 +61,7 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
+          <div class="grid-item noticias pc col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -84,7 +78,7 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
+          <div class="grid-item reviews pc col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -101,7 +95,7 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
+          <div class="grid-item guias mobile col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -118,7 +112,7 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
+          <div class="grid-item eventos col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -134,7 +128,7 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
+          <div class="grid-item noticias mobile col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -151,7 +145,7 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
+          <div class="grid-item tecnologia col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -167,13 +161,13 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
+          <div class="grid-item reviews mobile col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">
                   <a href="#" class="badge cat-reviews cat-badge-link">Reviews</a>
-                  <a href="#" class="badge cat-pc cat-badge-link">PC</a>
+                  <a href="#" class="badge cat-mobile cat-badge-link">Mobile</a>
                 </p>
                 <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
@@ -184,13 +178,13 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
+          <div class="grid-item guias pc col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">
                   <a href="#" class="badge cat-guias cat-badge-link">Guias</a>
-                  <a href="#" class="badge cat-mobile cat-badge-link">Mobile</a>
+                  <a href="#" class="badge cat-pc cat-badge-link">PC</a>
                 </p>
                 <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
@@ -210,6 +204,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/teste.js"></script>
   </body>

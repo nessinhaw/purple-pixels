@@ -67,11 +67,11 @@
       
     </div>
 
-    <div class="container">
+     <div class="container">
       <div class="grid">
           <div class="grid-sizer col-xs-4 col-md-6 col-lg-2 col-xl-2"></div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
+          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -88,7 +88,7 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
+          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -105,7 +105,7 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
+          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -122,7 +122,7 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
+          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -139,7 +139,7 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
+          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -155,7 +155,7 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
+          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -172,7 +172,7 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
+          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -188,7 +188,7 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
+          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -205,7 +205,7 @@
             </div>
           </div>
 
-          <div class="grid-item col-xs-8 col-md-6 col-lg-4 col-xl-4">
+          <div class="grid-item col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">

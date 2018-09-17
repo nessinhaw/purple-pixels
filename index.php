@@ -65,13 +65,36 @@
         </div>
       </div>
 
+    </div>
 
+    <div id="filters" class="filters d-flex justify-content-center">
       <div class="row">
-
-        <!--LOOP START-->
         <div class="col">
-          <div class="card-columns">
+          <div class="btn-group" data-filter-group="posts" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary" data-filter="">Todos</button>
+            <button type="button" class="btn btn-secondary" data-filter=".noticias">Noticias</button>
+            <button type="button" class="btn btn-secondary" data-filter=".reviews">Reviews</button>
+            <button type="button" class="btn btn-secondary" data-filter=".guias">Guias</button>
+            <button type="button" class="btn btn-secondary" data-filter=".tecnologia">Tecnologia</button>
+            <button type="button" class="btn btn-secondary" data-filter=".eventos">Eventos</button>
+          </div>
+        </div>
 
+      <div class="col">
+        <div class="btn-group" data-filter-group="posts2" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-secondary" data-filter="">Todos</button>
+          <button type="button" class="btn btn-secondary" data-filter=".mobile">Mobile</button>
+          <button type="button" class="btn btn-secondary" data-filter=".pc">PC</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container mt-3">
+      <div class="grid">
+          <div class="grid-sizer col-xs-4 col-md-6 col-lg-2 col-xl-2"></div>
+
+          <div class="grid-item noticias mobile col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -86,7 +109,9 @@
                 <p class="card-text"><small class="text-muted">13/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item noticias pc col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -101,7 +126,9 @@
                 <p class="card-text"><small class="text-muted">12/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item reviews pc col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -116,7 +143,9 @@
                 <p class="card-text"><small class="text-muted">11/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item guias mobile col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -131,7 +160,9 @@
                 <p class="card-text"><small class="text-muted">10/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item eventos col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -145,7 +176,9 @@
                 <p class="card-text"><small class="text-muted">09/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item noticias mobile col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -160,7 +193,9 @@
                 <p class="card-text"><small class="text-muted">08/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item tecnologia col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
@@ -174,13 +209,15 @@
                 <p class="card-text"><small class="text-muted">07/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item reviews mobile col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">
                   <a href="#" class="badge cat-reviews cat-badge-link">Reviews</a>
-                  <a href="#" class="badge cat-pc cat-badge-link">PC</a>
+                  <a href="#" class="badge cat-mobile cat-badge-link">Mobile</a>
                 </p>
                 <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
@@ -189,13 +226,15 @@
                 <p class="card-text"><small class="text-muted">06/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
+          </div>
 
+          <div class="grid-item guias pc col-xs-8 col-md-6 col-lg-3 col-xl-4">
             <div class="card shadow-sm">
               <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">
                   <a href="#" class="badge cat-guias cat-badge-link">Guias</a>
-                  <a href="#" class="badge cat-mobile cat-badge-link">Mobile</a>
+                  <a href="#" class="badge cat-pc cat-badge-link">PC</a>
                 </p>
                 <h5 class="card-title"><a class="card-title" href="#">Titulo do post</a></h5>
                 <h6 class="card-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
@@ -204,13 +243,10 @@
                 <p class="card-text"><small class="text-muted">05/09/2018 por <a href="#">Yuck</a></small></p>
               </div>
             </div>
-
           </div>
         </div>
-        <!--LOOP END-->
-
       </div>
-    </div>
+
 
     <footer class="footer footer-bg mt-5">
       <div class="container">
@@ -279,8 +315,11 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/teste.js"></script>
   </body>
 </html>
