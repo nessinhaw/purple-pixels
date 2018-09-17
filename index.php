@@ -8,39 +8,40 @@
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Arvo|Montserrat|Playfair+Display:700" rel="stylesheet">
 
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/search-bar.css" />
     <link rel="stylesheet" href="css/media.css" />
 
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar nav-bg">
-      <a class="navbar-brand mx-auto p-3 brand" href="#">Nome do Blog</a>
-    </nav>
 
-    <ul class="nav justify-content-center mt-1 mb-4 nav-cat-bg">
-      <li class="nav-item p-2">
-        <a class="nav-link nav-cat-noticias" href="#">Notícias</a>
-      </li>
-      <li class="nav-item p-2">
-        <a class="nav-link nav-cat-reviews" href="#">Reviews</a>
-      </li>
-      <li class="nav-item p-2">
-        <a class="nav-link nav-cat-guias" href="#">Guias</a>
-      </li>
-      <li class="nav-item p-2">
-        <a class="nav-link nav-cat-tecnologia" href="#">Tecnologia</a>
-      </li>
-      <li class="nav-item p-2">
-        <a class="nav-link nav-cat-eventos" href="#">Eventos</a>
-      </li>
-    </ul>
+    <div class="container mb-4">
+      <header class="blog-header py-3">
+          <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col-4 pt-1">
+              <a class="blog-header-icon text-muted pr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="blog-header-icon text-muted" href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="col-4 text-center">
+              <a class="blog-header-logo text-dark" href="#">Nome do Blog</a>
+            </div>
+            <div class="col-4 d-flex justify-content-end align-items-center">
+              <a class="blog-header-icon text-muted" href="#">
+                <i class="fas fa-search"></i>
+              </a>
+            </div>
+          </div>
+      </header>
+    </div>
 
-    <div class="container">
-
-      <div class="row mb-3">
+    <div class="container mb-3">
+      <div class="row">
         <div class="col-md-6">
           <div class="card flex-md-row-reverse mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
@@ -71,26 +72,26 @@
       <div class="row">
         <div class="col">
           <div class="btn-group" data-filter-group="posts" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary" data-filter="">Todos</button>
-            <button type="button" class="btn btn-secondary" data-filter=".noticias">Noticias</button>
-            <button type="button" class="btn btn-secondary" data-filter=".reviews">Reviews</button>
-            <button type="button" class="btn btn-secondary" data-filter=".guias">Guias</button>
-            <button type="button" class="btn btn-secondary" data-filter=".tecnologia">Tecnologia</button>
-            <button type="button" class="btn btn-secondary" data-filter=".eventos">Eventos</button>
+            <button type="button" class="btn btn-secondary cat-todos" data-filter="">Todos</button>
+            <button type="button" class="btn btn-secondary cat-noticias" data-filter=".noticias">Noticias</button>
+            <button type="button" class="btn btn-secondary cat-reviews" data-filter=".reviews">Reviews</button>
+            <button type="button" class="btn btn-secondary cat-guias" data-filter=".guias">Guias</button>
+            <button type="button" class="btn btn-secondary cat-tecnologia" data-filter=".tecnologia">Tecnologia</button>
+            <button type="button" class="btn btn-secondary cat-eventos" data-filter=".eventos">Eventos</button>
           </div>
         </div>
 
       <div class="col">
         <div class="btn-group" data-filter-group="posts2" role="group" aria-label="Basic example">
-          <button type="button" class="btn btn-secondary" data-filter="">Todos</button>
-          <button type="button" class="btn btn-secondary" data-filter=".mobile">Mobile</button>
-          <button type="button" class="btn btn-secondary" data-filter=".pc">PC</button>
+          <button type="button" class="btn btn-secondary cat-todos" data-filter="">Todos</button>
+          <button type="button" class="btn btn-secondary cat-mobile" data-filter=".mobile">Mobile</button>
+          <button type="button" class="btn btn-secondary cat-pc" data-filter=".pc">PC</button>
         </div>
       </div>
     </div>
   </div>
 
-    <div class="container mt-3">
+    <div class="container mt-4">
       <div class="grid">
           <div class="grid-sizer col-xs-4 col-md-6 col-lg-2 col-xl-2"></div>
 

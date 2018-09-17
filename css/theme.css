@@ -11,62 +11,43 @@ a:hover, a:active{
 	text-decoration: none;
 }
 
-.nav-bg{
-	background-color: transparent;
-	border-bottom: 2px solid #a8a1a1;
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #050404;
 }
 
-a.brand:link, a.brand:visited{
-	font-family: 'Abril Fatface', cursive;
-	font-size: 40px;
-	color: #050404;
+.blog-header-logo {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2.25rem;
 }
 
-.nav-cat-bg{
-	background-color: #050404;
+.blog-header-logo:hover {
+  text-decoration: none;
 }
 
-a.nav-cat-noticias:link, a.nav-cat-noticias:visited{
-	color: #425ff4;
+.blog-header-icon{
+	font-size: 15px;
 }
 
-a.nav-cat-reviews:link, a.nav-cat-reviews:visited{
-	color: #f71844;
-}
-
-a.nav-cat-guias:link, a.nav-cat-guias:visited{
-	color: #15c129;
-}
-
-a.nav-cat-tecnologia:link, a.nav-cat-tecnologia:visited{
-	color: #e00404;
-}
-
-a.nav-cat-eventos:link, a.nav-cat-eventos:visited{
-	color: #00bc57;
-}
-
-a.nav-cat-noticias:hover, a.nav-cat-noticias:active,
-a.nav-cat-reviews:hover, a.nav-cat-reviews:active, a.nav-cat-guias:hover, a.nav-cat-guias:hover,
-a.nav-cat-tecnologia:hover, a.nav-cat-tecnologia:hover, a.nav-cat-eventos:hover, a.nav-cat-eventos:active{
-	color: #a8a1a1;
-}
-
-a.nav-cat-link:link, a.nav-cat-link:visited{
-	color: #EAEAEA;
-}
-
-a.nav-cat-link:hover, a.nav-cat-link:active{
-	color: #893168;
+.btn{
+	border: none;
 }
 
 .btn:active,
 .btn.is-checked {
-  background-color: #28F;
+  background-color: #050404;
 }
 
 .btn.is-checked {
-  color: white;
+  color: #EAEAEA;
+}
+
+.btn-secondary{
+	border-color: transparent;
+}
+
+.btn-secondary:hover{
+	background-color: #050404;
 }
 
 .grid-item{
@@ -85,6 +66,10 @@ a.nav-cat-link:hover, a.nav-cat-link:active{
 
 .cat-destaque-semana{
 	background-color: #9e04e0;
+}
+
+.cat-todos{
+	background-color: #050404;
 }
 
 .cat-noticias{
