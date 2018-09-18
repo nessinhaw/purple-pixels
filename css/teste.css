@@ -1,0 +1,48 @@
+.nav-bg{
+  background-color: #050404;
+  border-bottom: 3px solid #b2b2b2;
+}
+
+a.brand:link, a.brand:visited{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  color: #EAEAEA;
+}
+
+.nav-cat-bg{
+  background-color: #050404;
+}
+
+a.nav-cat-noticias:link, a.nav-cat-noticias:visited{
+  color: #425ff4;
+}
+
+a.nav-cat-reviews:link, a.nav-cat-reviews:visited{
+  color: #f71844;
+}
+
+a.nav-cat-guias:link, a.nav-cat-guias:visited{
+  color: #15c129;
+}
+
+a.nav-cat-tecnologia:link, a.nav-cat-tecnologia:visited{
+  color: #e00404;
+}
+
+a.nav-cat-eventos:link, a.nav-cat-eventos:visited{
+  color: #00bc57;
+}
+
+a.nav-cat-noticias:hover, a.nav-cat-noticias:active,
+a.nav-cat-reviews:hover, a.nav-cat-reviews:active, a.nav-cat-guias:hover, a.nav-cat-guias:hover,
+a.nav-cat-tecnologia:hover, a.nav-cat-tecnologia:hover, a.nav-cat-eventos:hover, a.nav-cat-eventos:active{
+  color: #a8a1a1;
+}
+
+a.nav-cat-link:link, a.nav-cat-link:visited{
+  color: #EAEAEA;
+}
+
+a.nav-cat-link:hover, a.nav-cat-link:active{
+  color: #893168;
+}

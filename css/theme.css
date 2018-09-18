@@ -11,9 +11,13 @@ a:hover, a:active{
 	text-decoration: none;
 }
 
+#panel{
+	display: none;
+}
+
 .blog-header {
   line-height: 1;
-  border-bottom: 1px solid #050404;
+  border-bottom: 2px solid #050404;
 }
 
 .blog-header-logo {
@@ -26,7 +30,7 @@ a:hover, a:active{
 }
 
 .blog-header-icon{
-	font-size: 15px;
+	font-size: 20px;
 }
 
 .btn{

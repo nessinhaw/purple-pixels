@@ -67,6 +67,29 @@
       
     </div>
 
+    <div id="filters" class="filters d-flex justify-content-center">
+      <div class="row">
+        <div class="col">
+          <div class="btn-group" data-filter-group="posts" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary cat-todos" data-filter="">Todos</button>
+            <button type="button" class="btn btn-secondary cat-noticias" data-filter=".noticias">Noticias</button>
+            <button type="button" class="btn btn-secondary cat-reviews" data-filter=".reviews">Reviews</button>
+            <button type="button" class="btn btn-secondary cat-guias" data-filter=".guias">Guias</button>
+            <button type="button" class="btn btn-secondary cat-tecnologia" data-filter=".tecnologia">Tecnologia</button>
+            <button type="button" class="btn btn-secondary cat-eventos" data-filter=".eventos">Eventos</button>
+          </div>
+        </div>
+
+      <div class="col">
+        <div class="btn-group" data-filter-group="posts2" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-secondary cat-todos" data-filter="">Todos</button>
+          <button type="button" class="btn btn-secondary cat-mobile" data-filter=".mobile">Mobile</button>
+          <button type="button" class="btn btn-secondary cat-pc" data-filter=".pc">PC</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
      <div class="container">
       <div class="grid">
           <div class="grid-sizer col-xs-4 col-md-6 col-lg-2 col-xl-2"></div>

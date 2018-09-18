@@ -8,74 +8,107 @@
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Arvo|Montserrat|Playfair+Display:700" rel="stylesheet">
 
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/search-bar.css" />
+    <link rel="stylesheet" href="css/media.css" />
 
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-fixed-top navbar-dark bg-dark main-nav">
-        <div class="container">
-            <div class="navbar-collapse collapse nav-content order-2">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Download</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Register</a>
-                    </li>
-                </ul>
-            </div>
-            <ul class="nav navbar-nav text-nowrap flex-row mx-md-auto order-1 order-md-2">
-                <li class="nav-item"><a class="nav-link" href="#">Website Name</a></li>
-                <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target=".nav-content" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </ul>
-            <div class="ml-auto navbar-collapse collapse nav-content order-3 order-md-3">
-                <ul class="ml-auto nav navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Rates</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Help</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <div id="filters" class="filters d-flex justify-content-center mt-3">
-      <div class="row">
-        <div class="col">
-          <div class="btn-group" data-filter-group="posts" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary" data-filter="">Todos</button>
-            <button type="button" class="btn btn-secondary" data-filter=".noticias">Noticias</button>
-            <button type="button" class="btn btn-secondary" data-filter=".reviews">Reviews</button>
-            <button type="button" class="btn btn-secondary" data-filter=".guias">Guias</button>
-            <button type="button" class="btn btn-secondary" data-filter=".tecnologia">Tecnologia</button>
-            <button type="button" class="btn btn-secondary" data-filter=".eventos">Eventos</button>
+    <div class="container mb-4">
+      <header class="blog-header py-3">
+          <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col-4 pt-1">
+              <form>
+                <input type="text" name="search" placeholder="&#xf002 Pesquisar...">
+              </form>
+            </div>
+            <div class="col-4 text-center">
+              <a class="blog-header-logo text-dark" href="#">Nome do Blog</a>
+            </div>
+            <div class="col-4 d-flex justify-content-end align-items-center">
+              <a class="blog-header-icon text-muted pr-2" href="#"><i class="fab fa-facebook"></i></a>
+              <a class="blog-header-icon text-muted" href="#"><i class="fab fa-twitter-square"></i></a>
+            </div>
           </div>
-        </div>
+      </header>
 
-      <div class="col">
-        <div class="btn-group" data-filter-group="posts2" role="group" aria-label="Basic example">
-          <button type="button" class="btn btn-secondary" data-filter="">Todos</button>
-          <button type="button" class="btn btn-secondary" data-filter=".mobile">Mobile</button>
-          <button type="button" class="btn btn-secondary" data-filter=".pc">PC</button>
+      <div id="filters">
+        <ul class="filter nav justify-content-center mt-2" data-filter-group="posts">
+          <li class="nav-item">
+            <button type="button" class="btn btn-link" data-filter="">Todos</button>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-link" data-filter=".noticias">Noticias</button>
+            <a class="open">+</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-link" data-filter=".reviews">Reviews</button>
+            <a class="open">+</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-link" data-filter=".guias">Guias</button>
+            <a class="open">+</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-link" data-filter=".tecnologia">Tecnologia</button>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-link" data-filter=".eventos">Eventos</button>
+          </li>
+        </ul>
+
+        <div id="panel">
+          <ul class="filter nav justify-content-center mt-2" data-filter-group="posts2">
+            <li class="nav-item">
+              <button type="button" class="btn btn-link" data-filter="">Todos</button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-link" data-filter=".mobile">Mobile</button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-link" data-filter=".pc">PC</button>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-  </div>
 
-    <div class="container mt-3">
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card flex-md-row-reverse mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <p class="card-text"><a href="#" class="badge cat-jogo-semana cat-badge-link">Jogo da Semana</a></p>
+              <h3 class="card-title"><a class="card-title" href="#">Titulo do jogo</a></h3>
+              <p class="card-text mb-2">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in.</p>
+              <p class="card-text pt-2 mb-auto"><a href="#" class="card-link">Review</a> <a href="#" class="card-link">Guias</a></p>
+            </div>
+            <img class="flex-auto d-none d-lg-block" width="210" height="285" src="img/onmyoji-sample.JPG" alt="Card image cap">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card flex-md-row-reverse mb-4 shadow-sm h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <p class="card-text"><a href="#" class="badge cat-destaque-semana cat-badge-link">Destaque da Semana</a></p>
+              <h3 class="card-title"><a class="card-title" href="#">Titulo do post</a></h3>
+              <p class="card-text mb-2">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in.</p>
+              <p class="card-text pt-2 mb-auto"><a href="#" class="card-link">Leia mais</a></p>
+            </div>
+            <img class="flex-auto d-none d-lg-block" width="210" height="285" src="img/onmyoji-sample.JPG" alt="Card image cap">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container mt-4">
       <div class="grid">
           <div class="grid-sizer col-xs-4 col-md-6 col-lg-2 col-xl-2"></div>
 
@@ -232,6 +265,70 @@
         </div>
       </div>
 
+
+    <footer class="footer footer-bg mt-5">
+      <div class="container">
+        <div class="row ">
+          <div class="col-sm mt-4 mb-4">
+            
+              <div>
+                <h5 class="pb-3 footer-title">Arquivo</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item pt-0"><a class="footer-link" href="#">Dezembro 2018</a></li>
+                  <li class="list-group-item"><a class="footer-link" href="">Novembro 2018</a></li>
+                  <li class="list-group-item"><a class="footer-link" href="">Outubro 2018</a></li>
+                  <li class="list-group-item"><a class="footer-link" href="">Setembro 2018</a></li>
+                </ul>
+              </div>
+
+          </div>
+
+          <div class="col-sm mt-4 mb-4">
+
+              <div>
+                <h5 class="pb-3 footer-title">Quem escreve?</h5>
+                <ul class="list-unstyled">
+                  <li class="media">
+                    <img class="mr-3 rounded-circle" src="img/sample-01.JPG" width="64" height="64" alt="Generic placeholder image">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1"><a class="author1-link" href="#">Pessoa 1</a></h5>
+                      <p>Breve introdução sobre o autor.</p>
+                    </div>
+                  </li>
+                  <li class="media my-4">
+                    <img class="mr-3 rounded-circle" src="img/sample-01.JPG" width="64" height="64" alt="Generic placeholder image">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1"><a class="author2-link" href="#">Pessoa 2</a></h5>
+                      <p>Breve introdução sobre o autor.</p>
+                    </div>
+                  </li>
+                </ul>
+            </div>
+
+          </div>
+
+          <div class="col-sm mt-4 mb-4">
+            <div class="mb-5">
+              <h5 class="pb-3 footer-title">Newsletter</h5>
+              <form>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div>
+              <h5 class="pb-2 footer-title">Sobre</h5>
+              <p>Algum texto legal sobre o blog.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
     <!-- Optional JavaScript -->

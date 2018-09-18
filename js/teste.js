@@ -1,3 +1,9 @@
+$(document).ready(function(){
+    $(".open").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+
 // init Isotope
 var $grid = $('.grid').isotope({
   	itemSelector: '.grid-item',
@@ -19,7 +25,7 @@ var filters = {};
 $('#filters').on( 'click', 'button', function() {
 	var $this = $(this);
   	// get group key
-  	var $buttonGroup = $this.parents('.btn-group');
+  	var $buttonGroup = $this.parents('.filter');
   	var filterGroup = $buttonGroup.attr('data-filter-group');
   	// set filter for group
   	filters[ filterGroup ] = $this.attr('data-filter');
@@ -38,7 +44,7 @@ function concatValues( obj ) {
 }
 
 // change is-checked class on buttons
-$('.btn-group').each( function( i, buttonGroup ) {
+$('.filter').each( function( i, buttonGroup ) {
   var $buttonGroup = $( buttonGroup );
   $buttonGroup.on( 'click', 'button', function() {
     $buttonGroup.find('.is-checked').removeClass('is-checked');
