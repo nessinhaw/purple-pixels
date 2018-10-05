@@ -33,8 +33,8 @@
               <a class="blog-header-logo" href="#">Nome do Blog</a>
             </div>
             <div class="col-4 d-flex justify-content-end align-items-center">
-              <a class="blog-header-icon text-muted pr-2" href="#"><i class="fab fa-facebook"></i></a>
-              <a class="blog-header-icon text-muted" href="#"><i class="fab fa-twitter-square"></i></a>
+              <a class="blog-header-icon pr-2" href="#"><i class="fab fa-facebook"></i></a>
+              <a class="blog-header-icon pr-2" href="#"><i class="fab fa-twitter-square"></i></a>
             </div>
           </div>
       </header>
@@ -45,19 +45,19 @@
             <button type="button" class="btn btn-link" data-filter="">Todos</button>
           </li>
           <li class="nav-item">
-            <button type="button" class="btn btn-link" data-filter=".noticias">Noticias</button>
-            <a class="open">+</a>
+            <button type="button" class="btn btn-link btn-link-plus" data-filter=".noticias">Noticias</button>
+            <a class="open"><i class="btn-icon fas fa-chevron-right"></i></a>
           </li>
           <li class="nav-item">
-            <button type="button" class="btn btn-link" data-filter=".reviews">Reviews</button>
-            <a class="open">+</a>
+            <button type="button" class="btn btn-link btn-link-plus pl-4" data-filter=".reviews">Reviews</button>
+            <a class="open"><i class="btn-icon fas fa-chevron-right"></i></a>
           </li>
           <li class="nav-item">
-            <button type="button" class="btn btn-link" data-filter=".guias">Guias</button>
-            <a class="open">+</a>
+            <button type="button" class="btn btn-link btn-link-plus pl-4" data-filter=".guias">Guias</button>
+            <a class="open"><i class="btn-icon fas fa-chevron-right"></i></a>
           </li>
           <li class="nav-item">
-            <button type="button" class="btn btn-link" data-filter=".tecnologia">Tecnologia</button>
+            <button type="button" class="btn btn-link pl-4" data-filter=".tecnologia">Tecnologia</button>
           </li>
           <li class="nav-item">
             <button type="button" class="btn btn-link" data-filter=".eventos">Eventos</button>
@@ -291,14 +291,14 @@
                   <li class="media">
                     <img class="mr-3 rounded-circle" src="img/sample-01.JPG" width="64" height="64" alt="Generic placeholder image">
                     <div class="media-body">
-                      <h5 class="mt-0 mb-1"><a class="author1-link" href="#">Pessoa 1</a></h5>
+                      <h5 class="mt-0 mb-1"><a class="footer-link" href="#">Pessoa 1</a></h5>
                       <p>Breve introdução sobre o autor.</p>
                     </div>
                   </li>
                   <li class="media my-4">
                     <img class="mr-3 rounded-circle" src="img/sample-01.JPG" width="64" height="64" alt="Generic placeholder image">
                     <div class="media-body">
-                      <h5 class="mt-0 mb-1"><a class="author2-link" href="#">Pessoa 2</a></h5>
+                      <h5 class="mt-0 mb-1"><a class="footer-link" href="#">Pessoa 2</a></h5>
                       <p>Breve introdução sobre o autor.</p>
                     </div>
                   </li>
@@ -312,9 +312,9 @@
               <h5 class="pb-3 footer-title">Newsletter</h5>
               <form>
                 <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <input type="text" class="form-control" placeholder="seu-email@email.com" aria-label="seu-email@email.com" aria-describedby="button-addon2">
                   <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                    <button class="btn btn-newsletter" type="button" id="button-addon2">Inscrever!</button>
                   </div>
                 </div>
               </form>

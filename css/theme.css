@@ -1,10 +1,11 @@
 body{
 	background-color: #EAEAEA;
+	color: #050404;
 	font-family: 'Montserrat', sans-serif;
 }
 
 a:link, a:visited{
-	color: #990F03;
+	color: #9368B7;
 }
 a:hover, a:active{
 	color: #050404;
@@ -17,13 +18,13 @@ a:hover, a:active{
 
 .blog-header {
   line-height: 1;
-  border-bottom: 2px solid #003249;
+  border-bottom: 2px solid #050404;
 }
 
 a.blog-header-logo:link {
   font-family: 'Abril Fatface', cursive;
   font-size: 2.25rem;
-  color: #CC1404;
+  color: #B118C8;
 }
 
 .blog-header-logo:hover {
@@ -34,13 +35,8 @@ a.blog-header-logo:link {
 	font-size: 20px;
 }
 
-.btn-link{
-	color: #CC1404;
-}
-
-.btn-link:hover{
-	color: #80CED7;
-	text-decoration: none;
+.nav{
+	padding: 5px;
 }
 
 .btn{
@@ -49,19 +45,39 @@ a.blog-header-logo:link {
 
 .btn:active,
 .btn.is-checked {
-  background-color: #050404;
+	color: #050404;
 }
 
 .btn.is-checked {
-  color: #EAEAEA;
+	text-decoration: none;	
+	color: #050404;
 }
 
-.btn-secondary{
-	border-color: transparent;
+.btn-link{
+	color: #B118C8;
 }
 
-.btn-secondary:hover{
-	background-color: #050404;
+.btn-link-plus{
+	color: #B118C8;
+	padding-right: 2px;
+}
+
+.btn-link:hover{
+	color: #9368B7;
+	text-decoration: none;
+}
+
+.btn-icon{
+	font-size: 11px;
+	color: #B118C8;
+}
+
+.btn-newsletter{
+	background-color: #EAEAEA;
+}
+
+.btn-newsletter:hover{
+	color: #9368B7;
 }
 
 .grid-item{
@@ -70,57 +86,14 @@ a.blog-header-logo:link {
 	margin-bottom: 15px;
 }
 
-.cat-badge{
-	background-color: #EAEAEA;
-}
-
-.cat-jogo-semana{
-	background-color: #00a9c6;
-}
-
-.cat-destaque-semana{
-	background-color: #9e04e0;
-}
-
-.cat-todos{
-	background-color: #050404;
-}
-
-.cat-noticias{
-	background-color: #425ff4;
-}
-
-.cat-reviews{
-	background-color: #f71844;
-}
-
-.cat-guias{
-	background-color: #15c129;
-}
-
-.cat-tecnologia{
-	background-color: #e00404;
-}
-
-.cat-eventos{
-	background-color: #00bc57;
-}
-.cat-mobile{
-	background-color: #c115a7;
-}
-
-.cat-pc{
-	background-color: #db770d;
-}
-
 a.cat-badge-link:link, a.cat-badge-link:visited{
-	color: #CC1404;
-	background-color: #EAEAEA;
+	color: #EAEAEA;
+	background-color: #B118C8;
 }
 
 a.cat-badge-link:hover, a.cat-badge-link:active{
-	color: #f2f2f2;
-	background-color: #9AD1D4;
+	color: #EAEAEA;
+	background-color: #9368B7;
 }
 
 a.card-title:link, a.card-title:visited{
@@ -130,8 +103,29 @@ a.card-title:link, a.card-title:visited{
 
 a.card-title:hover, a.card-title:active{
 	font-family: 'Arvo', serif;
-	color: #a8a1a1;
+	color: #9368B7;
 	text-decoration: none;
+}
+
+.post-card{
+	background-color: #FFFFFF;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+	padding: 15px;
+}
+
+.post-title{
+	font-family: 'Arvo', serif;
+	font-size: 30px;
+	color: #050404;
+}
+
+.post-subtitle{
+	font-size: 20px;
+}
+
+.post-info{
+	font-size: 13px;
 }
 
 .list-group-flush .list-group-item {
@@ -143,12 +137,9 @@ a.card-title:hover, a.card-title:active{
 	border-bottom: 1px solid #EAEAEA;
 }
 
-a.author1-link:link, a.author1-link:visited{
-	color: #7248ba;
-}
-
-a.author2-link:link, a.author2-link:visited{
-	color: #c45f25;
+.input-group{
+	border: 1px solid #EAEAEA;
+	border-radius: 3px;
 }
 
 .footer-bg{
@@ -161,10 +152,10 @@ a.author2-link:link, a.author2-link:visited{
 }
 
 a.footer-link:link, a.footer-link:visited{
-	color: #6b6b6b;
+	color: #9368B7;
 }
 
 a.footer-link:hover, a.footer-link:active, a.author1-link:hover, a.author1-link:active, a.author2-link:hover, a.author2-link:active{
-	color: #a8a1a1;
+	color: #EAEAEA;
 	text-decoration: none;
 }

@@ -46,3 +46,46 @@ a.nav-cat-link:link, a.nav-cat-link:visited{
 a.nav-cat-link:hover, a.nav-cat-link:active{
   color: #893168;
 }
+
+.cat-badge{
+  background-color: #EAEAEA;
+}
+
+.cat-jogo-semana{
+  background-color: #00a9c6;
+}
+
+.cat-destaque-semana{
+  background-color: #9e04e0;
+}
+
+.cat-todos{
+  background-color: #050404;
+}
+
+.cat-noticias{
+  background-color: #425ff4;
+}
+
+.cat-reviews{
+  background-color: #f71844;
+}
+
+.cat-guias{
+  background-color: #15c129;
+}
+
+.cat-tecnologia{
+  background-color: #e00404;
+}
+
+.cat-eventos{
+  background-color: #00bc57;
+}
+.cat-mobile{
+  background-color: #c115a7;
+}
+
+.cat-pc{
+  background-color: #db770d;
+}
