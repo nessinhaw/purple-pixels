@@ -5,7 +5,7 @@ body{
 }
 
 a:link, a:visited{
-	color: #9368B7;
+	color: #2A9134;
 }
 a:hover, a:active{
 	color: #050404;
@@ -18,13 +18,14 @@ a:hover, a:active{
 
 .blog-header {
   line-height: 1;
-  border-bottom: 2px solid #050404;
+  border-bottom: 2px solid #1a1a1a;
+  background-color: #1a1a1a;
 }
 
 a.blog-header-logo:link {
   font-family: 'Abril Fatface', cursive;
   font-size: 2.25rem;
-  color: #B118C8;
+  color: #137547;
 }
 
 .blog-header-logo:hover {
@@ -37,6 +38,7 @@ a.blog-header-logo:link {
 
 .nav{
 	padding: 5px;
+	border-top: 2px solid #2A9134;
 }
 
 .btn{
@@ -54,22 +56,24 @@ a.blog-header-logo:link {
 }
 
 .btn-link{
-	color: #B118C8;
+	font-size: .90rem;
+	text-transform: uppercase;
+	color: #137547;
 }
 
 .btn-link-plus{
-	color: #B118C8;
+	color: #137547;
 	padding-right: 2px;
 }
 
 .btn-link:hover{
-	color: #9368B7;
+	color: #2A9134;
 	text-decoration: none;
 }
 
 .btn-icon{
 	font-size: 11px;
-	color: #B118C8;
+	color: #137547;
 }
 
 .btn-newsletter{
@@ -88,12 +92,12 @@ a.blog-header-logo:link {
 
 a.cat-badge-link:link, a.cat-badge-link:visited{
 	color: #EAEAEA;
-	background-color: #B118C8;
+	background-color: #137547;
 }
 
 a.cat-badge-link:hover, a.cat-badge-link:active{
 	color: #EAEAEA;
-	background-color: #9368B7;
+	background-color: #2A9134;
 }
 
 a.card-title:link, a.card-title:visited{
@@ -103,7 +107,7 @@ a.card-title:link, a.card-title:visited{
 
 a.card-title:hover, a.card-title:active{
 	font-family: 'Arvo', serif;
-	color: #9368B7;
+	color: #2A9134;
 	text-decoration: none;
 }
 
