@@ -81,17 +81,38 @@
     </div>
 
     <div class="container mt-4">
-      <div class="post-card shadow-sm">
-        <h1 class="post-title">Titulo do post</h1>
-        <h2 class="post-subtitle text-muted">Algum subtitulo bem legal</h2>
-        <h3 class="post-info">Postado em 05/10/2018 por <a href="">Yuck</a> . <a href="">Deixe um comentário</a></h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis nunc quam. Ut urna mauris, ultrices vitae orci ac, varius iaculis tellus. Sed metus libero, bibendum in sodales nec, ullamcorper varius sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi et risus vitae enim auctor euismod. Sed odio metus, commodo non efficitur eu, gravida quis nulla. Nullam dignissim quam ex, eget pulvinar quam vehicula at. Aenean luctus mattis venenatis. Morbi gravida maximus sem sit amet convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin sodales nulla ut convallis. Praesent fringilla lectus non augue mattis posuere. Pellentesque lobortis faucibus faucibus. Aliquam sagittis, velit ac auctor scelerisque, neque sem vehicula libero, at placerat ligula tellus vel est. Integer non tortor id mauris porta convallis vitae vitae ligula. In eu tellus nulla.<br/><br/>
+      <div class="row">
+        <div class="col-9">
+          <div class="card shadow-sm">
+              <img class="card-img-top" src="img/sample-01.JPG" height="250px" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">
+                  <a href="#" class="badge cat-badge-link">Notícias</a>
+                  <a href="#" class="badge cat-badge-link">Mobile</a>
+                </p>
+              <h5 class="post-title">Titulo do post</h5>
+              <h6 class="post-subtitle mb-2 text-muted">Algum subtitulo bem legal</h6>
+              <p class="card-text"><small class="text-muted post-info">13/09/2018 por <a href="#">Yuck</a> . <a href="#">Deixe um comentário</a></small></p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis nunc quam. Ut urna mauris, ultrices vitae orci ac, varius iaculis tellus. Sed metus libero, bibendum in sodales nec, ullamcorper varius sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi et risus vitae enim auctor euismod. Sed odio metus, commodo non efficitur eu, gravida quis nulla. Nullam dignissim quam ex, eget pulvinar quam vehicula at. Aenean luctus mattis venenatis. Morbi gravida maximus sem sit amet convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin sodales nulla ut convallis. Praesent fringilla lectus non augue mattis posuere. Pellentesque lobortis faucibus faucibus. Aliquam sagittis, velit ac auctor scelerisque, neque sem vehicula libero, at placerat ligula tellus vel est. Integer non tortor id mauris porta convallis vitae vitae ligula. In eu tellus nulla.<br/><br/>
 
-        Vestibulum fermentum id quam ac dapibus. Donec in dignissim tortor. Phasellus egestas justo a mollis dapibus. Mauris a justo ut elit pretium elementum. Integer gravida sem non enim pulvinar, in dapibus justo bibendum. Ut pretium fermentum dui at porttitor. Aliquam lobortis eu tortor non ultrices. Fusce sed leo tincidunt, molestie nisi auctor, laoreet lacus. Aenean eleifend est pellentesque dolor rhoncus scelerisque. Mauris tempus eros sollicitudin lectus accumsan accumsan. Proin id dolor posuere, blandit justo a, hendrerit metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus id varius nulla, non dictum elit. Donec quis augue nec ipsum aliquam faucibus. Maecenas consectetur gravida nisl, ac iaculis mi molestie elementum. Quisque pharetra ornare justo nec sagittis.<br/><br/>
+              Vestibulum fermentum id quam ac dapibus. Donec in dignissim tortor. Phasellus egestas justo a mollis dapibus. Mauris a justo ut elit pretium elementum. Integer gravida sem non enim pulvinar, in dapibus justo bibendum. Ut pretium fermentum dui at porttitor. Aliquam lobortis eu tortor non ultrices. Fusce sed leo tincidunt, molestie nisi auctor, laoreet lacus. Aenean eleifend est pellentesque dolor rhoncus scelerisque. Mauris tempus eros sollicitudin lectus accumsan accumsan. Proin id dolor posuere, blandit justo a, hendrerit metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus id varius nulla, non dictum elit. Donec quis augue nec ipsum aliquam faucibus. Maecenas consectetur gravida nisl, ac iaculis mi molestie elementum. Quisque pharetra ornare justo nec sagittis.<br/><br/>
 
-        Vivamus quis malesuada ex, a convallis felis. Morbi id arcu vel dui ullamcorper aliquet. Aliquam erat volutpat. Vivamus egestas quam at ligula tempor, id eleifend risus eleifend. Maecenas gravida arcu a nunc rutrum tempor. Ut eget eros ultricies, venenatis ante in, rutrum erat. Nulla venenatis, augue eu sodales aliquet, lorem ipsum convallis dolor, in suscipit tellus massa eu turpis. Praesent vel tempor neque. Nam pulvinar porttitor venenatis.<br/><br/>
+              Vivamus quis malesuada ex, a convallis felis. Morbi id arcu vel dui ullamcorper aliquet. Aliquam erat volutpat. Vivamus egestas quam at ligula tempor, id eleifend risus eleifend. Maecenas gravida arcu a nunc rutrum tempor. Ut eget eros ultricies, venenatis ante in, rutrum erat. Nulla venenatis, augue eu sodales aliquet, lorem ipsum convallis dolor, in suscipit tellus massa eu turpis. Praesent vel tempor neque. Nam pulvinar porttitor venenatis.<br/><br/>
 
-        Morbi sed mollis ipsum. Nullam commodo nisl id facilisis iaculis. Fusce commodo tortor a lectus auctor tincidunt. Duis convallis ante ac metus molestie volutpat. Vivamus quis magna lorem. Suspendisse potenti. Proin ac ipsum a est blandit laoreet non fermentum metus. Proin vehicula, dui faucibus blandit facilisis, lacus magna aliquet justo, a laoreet nunc ipsum vitae eros.</p>
+              Morbi sed mollis ipsum. Nullam commodo nisl id facilisis iaculis. Fusce commodo tortor a lectus auctor tincidunt. Duis convallis ante ac metus molestie volutpat. Vivamus quis magna lorem. Suspendisse potenti. Proin ac ipsum a est blandit laoreet non fermentum metus. Proin vehicula, dui faucibus blandit facilisis, lacus magna aliquet justo, a laoreet nunc ipsum vitae eros.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <h5 class="pb-3">Mais Lidas</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item pt-0"><a href="#">Titulo do Post</a></li>
+              <li class="list-group-item"><a href="">Titulo do Post</a></li>
+              <li class="list-group-item"><a href="">Titulo do Post</a></li>
+              <li class="list-group-item"><a href="">Titulo do Post</a></li>
+            </ul>
+        </div>
       </div>
     </div>
 

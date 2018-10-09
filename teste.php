@@ -40,7 +40,7 @@
       </header>
 
       <div id="filters">
-        <ul class="filter nav justify-content-center mt-2" data-filter-group="posts">
+        <ul class="filter nav justify-content-center mt-1" data-filter-group="posts">
           <li class="nav-item">
             <button type="button" class="btn btn-link" data-filter="">Todos</button>
           </li>
@@ -65,7 +65,7 @@
         </ul>
 
         <div id="panel">
-          <ul class="filter nav justify-content-center mt-2" data-filter-group="posts2">
+          <ul class="filter nav justify-content-center" data-filter-group="posts2">
             <li class="nav-item">
               <button type="button" class="btn btn-link" data-filter="">Todos</button>
             </li>
@@ -108,7 +108,7 @@
 
     </div>
 
-    <div class="container mt-4">
+    <div class="container mt-3">
       <div class="grid">
           <div class="grid-sizer col-xs-4 col-md-6 col-lg-2 col-xl-2"></div>
 
@@ -291,14 +291,14 @@
                   <li class="media">
                     <img class="mr-3 rounded-circle" src="img/sample-01.JPG" width="64" height="64" alt="Generic placeholder image">
                     <div class="media-body">
-                      <h5 class="mt-0 mb-1"><a class="footer-link" href="#">Pessoa 1</a></h5>
+                      <h5 class="mt-0 mb-1"><a class="author-link" href="#">Pessoa 1</a></h5>
                       <p>Breve introdução sobre o autor.</p>
                     </div>
                   </li>
                   <li class="media my-4">
                     <img class="mr-3 rounded-circle" src="img/sample-01.JPG" width="64" height="64" alt="Generic placeholder image">
                     <div class="media-body">
-                      <h5 class="mt-0 mb-1"><a class="footer-link" href="#">Pessoa 2</a></h5>
+                      <h5 class="mt-0 mb-1"><a class="author-link" href="#">Pessoa 2</a></h5>
                       <p>Breve introdução sobre o autor.</p>
                     </div>
                   </li>

@@ -1,14 +1,14 @@
 body{
-	background-color: #EAEAEA;
-	color: #050404;
+	background-color: #E0DFD5;
+	color: #313638;
 	font-family: 'Montserrat', sans-serif;
 }
 
 a:link, a:visited{
-	color: #2A9134;
+	color: #F09D51;
 }
 a:hover, a:active{
-	color: #050404;
+	color: #313638;
 	text-decoration: none;
 }
 
@@ -18,14 +18,13 @@ a:hover, a:active{
 
 .blog-header {
   line-height: 1;
-  border-bottom: 2px solid #1a1a1a;
-  background-color: #1a1a1a;
+  border-bottom: 2px solid #313638;
 }
 
 a.blog-header-logo:link {
   font-family: 'Abril Fatface', cursive;
   font-size: 2.25rem;
-  color: #137547;
+  color: #F06543;
 }
 
 .blog-header-logo:hover {
@@ -38,7 +37,7 @@ a.blog-header-logo:link {
 
 .nav{
 	padding: 5px;
-	border-top: 2px solid #2A9134;
+	background-color: #313638;
 }
 
 .btn{
@@ -47,41 +46,42 @@ a.blog-header-logo:link {
 
 .btn:active,
 .btn.is-checked {
-	color: #050404;
+	color: #F09D51;
 }
 
 .btn.is-checked {
 	text-decoration: none;	
-	color: #050404;
+	color: #F09D51;
 }
 
 .btn-link{
 	font-size: .90rem;
 	text-transform: uppercase;
-	color: #137547;
+	color: #F06543;
 }
 
 .btn-link-plus{
-	color: #137547;
+	color: #F06543;
 	padding-right: 2px;
 }
 
 .btn-link:hover{
-	color: #2A9134;
+	color: #F09D51;
 	text-decoration: none;
 }
 
 .btn-icon{
 	font-size: 11px;
-	color: #137547;
+	color: #F06543;
 }
 
 .btn-newsletter{
-	background-color: #EAEAEA;
+	background-color: #E0DFD5;
+	color: #313638;
 }
 
 .btn-newsletter:hover{
-	color: #9368B7;
+	color: #F06543;
 }
 
 .grid-item{
@@ -90,24 +90,28 @@ a.blog-header-logo:link {
 	margin-bottom: 15px;
 }
 
+.card-body{
+	background-color: #f4f4f0;
+}
+
 a.cat-badge-link:link, a.cat-badge-link:visited{
-	color: #EAEAEA;
-	background-color: #137547;
+	color: #E0DFD5;
+	background-color: #F06543;
 }
 
 a.cat-badge-link:hover, a.cat-badge-link:active{
-	color: #EAEAEA;
-	background-color: #2A9134;
+	color: #E0DFD5;
+	background-color: #F09D51;
 }
 
 a.card-title:link, a.card-title:visited{
 	font-family: 'Arvo', serif;
-	color: #050404;
+	color: #313638;
 }
 
 a.card-title:hover, a.card-title:active{
 	font-family: 'Arvo', serif;
-	color: #2A9134;
+	color: #F09D51;
 	text-decoration: none;
 }
 
@@ -121,7 +125,7 @@ a.card-title:hover, a.card-title:active{
 .post-title{
 	font-family: 'Arvo', serif;
 	font-size: 30px;
-	color: #050404;
+	color: #313638;
 }
 
 .post-subtitle{
@@ -138,17 +142,31 @@ a.card-title:hover, a.card-title:active{
 }
 
 .list-group-item{
-	border-bottom: 1px solid #EAEAEA;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid #E0DFD5;
+}
+
+a.author-link:link, a.author-link:visited{
+	font-size: .95rem;
+	text-transform: uppercase;
+	color: #F06543;
+}
+
+a.author-link:hover, a.author-link:active{
+	font-size: .95rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #F09D51;
 }
 
 .input-group{
-	border: 1px solid #EAEAEA;
+	border: 1px solid #E0DFD5;
 	border-radius: 3px;
 }
 
 .footer-bg{
-	background-color: #050404;
-	color: #EAEAEA;
+	background-color: #313638;
+	color: #E0DFD5;
 }
 
 .footer-title{
@@ -156,10 +174,10 @@ a.card-title:hover, a.card-title:active{
 }
 
 a.footer-link:link, a.footer-link:visited{
-	color: #9368B7;
+	color: #F06543;
 }
 
-a.footer-link:hover, a.footer-link:active, a.author1-link:hover, a.author1-link:active, a.author2-link:hover, a.author2-link:active{
-	color: #EAEAEA;
+a.footer-link:hover, a.footer-link:active{
+	color: #F09D51;
 	text-decoration: none;
 }
