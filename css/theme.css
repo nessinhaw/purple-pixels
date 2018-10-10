@@ -198,3 +198,10 @@ a.footer-link:hover, a.footer-link:active{
 	color: #F09D51;
 	text-decoration: none;
 }
+
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}

@@ -91,6 +91,24 @@
   </div>
 
      <div class="container">
+      <div id="filters">
+            <div class="filter list-group" data-filter-group="posts">
+              <button type="button" class="list-group-item list-group-cat" data-filter="">Geral</button>
+              <button type="button" class="list-group-item list-group-cat" data-toggle="collapse" data-target="#collapseExample" data-filter=".noticias">Notícias</button>
+              <button type="button" class="list-group-item list-group-cat" data-filter=".reviews">Reviews</button>
+              <button type="button" class="list-group-item list-group-cat" data-filter=".guias">Guias</button>
+              <button type="button" class="list-group-item list-group-cat" data-filter=".tecnologia">Tecnologia</button>
+              <button type="button" class="list-group-item list-group-cat" data-filter=".eventos">Eventos</button>
+            </div>
+
+            <div class="collapse" id="collapseExample">
+              <div class="filter list-group" data-filter-group="posts2">
+                <button type="button" class="list-group-item list-group-cat" data-filter="">Geral</button>
+                <button type="button" class="list-group-item list-group-cat" data-filter=".mobile">Mobile</button>
+                <button type="button" class="list-group-item list-group-cat" data-filter=".pc">PC</button>
+              </div>
+            </div>
+          </div>
       <div class="grid">
           <div class="grid-sizer col-xs-4 col-md-6 col-lg-2 col-xl-2"></div>
 

@@ -111,7 +111,7 @@
     <div class="container mt-3">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-9">
-        <div class="header-title">Recentes</div>
+        <div class="header-title">Nome da Categoria</div>
         <div class="grid mt-2">
             <div class="grid-sizer col-xs-4 col-md-6 col-lg-2 col-xl-1"></div>
 
