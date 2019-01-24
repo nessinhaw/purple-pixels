@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt_BR">
   <head>
     <!-- Required meta tags -->
     <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -37,7 +37,7 @@
           <button type="button" class="btn btn-link" data-filter="">Todos</button>
         </li>
         <li class="nav-item">
-          <button type="button" class="btn btn-link btn-link-plus" data-filter=".category-noticias">Noticias</button>
+          <button type="button" class="btn btn-link btn-link-plus" data-filter=".noticias">Noticias</button>
           <a class="open"><i class="btn-icon fas fa-chevron-right"></i></a>
         </li>
         <li class="nav-item">
@@ -74,28 +74,21 @@
     <div class="container mb-3">
       <div class="header-title">Destaques</div>
       <div class="row mt-2">
-        <div class="col-md-6">
-          <div class="card flex-md-row-reverse mb-4 shadow-sm h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <p class="card-text"><a href="#" class="badge cat-badge-link">Jogo da Semana</a></p>
-              <h3 class="card-title"><a class="card-title" href="#">Titulo do jogo</a></h3>
-              <p class="card-text mb-2">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in.</p>
-              <p class="card-text pt-2 mb-auto"><a href="#" class="card-link">Review</a> <a href="#" class="card-link">Guias</a></p>
-            </div>
-            <img class="flex-auto d-none d-lg-block" width="210" height="285" src="img/onmyoji-sample.JPG" alt="Card image cap">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card flex-md-row-reverse mb-4 shadow-sm h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <p class="card-text"><a href="#" class="badge cat-badge-link">Destaque da Semana</a></p>
-              <h3 class="card-title"><a class="card-title" href="#">Titulo do post</a></h3>
-              <p class="card-text mb-2">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in.</p>
-              <p class="card-text pt-2 mb-auto"><a href="#" class="card-link">Leia mais</a></p>
-            </div>
-            <img class="flex-auto d-none d-lg-block" width="210" height="285" src="img/onmyoji-sample.JPG" alt="Card image cap">
-          </div>
-        </div>
+
+        <?php
+          $args = array (
+          'showposts' => '2',
+          'category_name' => 'destaque',
+          );
+          $the_query = new WP_Query( $args );
+
+          if ( have_posts()) : 
+            while ( $the_query->have_posts() ) : $the_query->the_post();
+              get_template_part( 'template-parts/header/featured', get_post_format() );
+            endwhile;
+           endif;
+          wp_reset_query(); ?>
+
       </div>
     </div>
 

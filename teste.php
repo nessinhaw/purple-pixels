@@ -40,7 +40,7 @@
       </header>
     </div>
 
-    <div class="container sticky mb-4" id="filters">
+   <div class="container sticky mb-4" id="filters">
       <ul class="filter nav justify-content-center mt-1" data-filter-group="posts">
         <li class="nav-item">
           <button type="button" class="btn btn-link" data-filter="">Todos</button>
