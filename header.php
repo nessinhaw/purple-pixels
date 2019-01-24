@@ -2,24 +2,15 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Arvo|Montserrat|Playfair+Display:700" rel="stylesheet">
 
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/theme.css" />
-    <link rel="stylesheet" href="css/search-bar.css" />
-    <link rel="stylesheet" href="css/media.css" />
-
-    <title>Hello, world!</title>
+    <?php wp_head(); ?>
   </head>
-  <body>
+  <body <?php body_class(); ?>>
 
     <div class="container">
       <header class="blog-header py-3">
@@ -46,7 +37,7 @@
           <button type="button" class="btn btn-link" data-filter="">Todos</button>
         </li>
         <li class="nav-item">
-          <button type="button" class="btn btn-link btn-link-plus" data-filter=".noticias">Noticias</button>
+          <button type="button" class="btn btn-link btn-link-plus" data-filter=".category-noticias">Noticias</button>
           <a class="open"><i class="btn-icon fas fa-chevron-right"></i></a>
         </li>
         <li class="nav-item">
@@ -107,3 +98,10 @@
         </div>
       </div>
     </div>
+
+    <div class="container mt-3">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="header-title">Recentes</div>
+        <div class="grid mt-2">
+            <div class="grid-sizer col-xs-4 col-md-6 col-lg-2 col-xl-1"></div>

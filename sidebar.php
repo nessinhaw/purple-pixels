@@ -1,3 +1,6 @@
+ </div>
+</div>
+
 <div class="col-sm-12 col-md-12 col-lg-3">
           <div class="widget">
             <div class="header-title mb-2">Mais Lidos</div>
