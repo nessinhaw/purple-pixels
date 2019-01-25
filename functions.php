@@ -81,8 +81,13 @@ function orangecooltheme_setup() {
 	 * @link https://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size( 400, 400 );
-	the_post_thumbnail('medium', array('class' => 'card-img-top'));
+
+	the_post_thumbnail('thumbnail');       // Thumbnail (default 150px x 150px max)
+	the_post_thumbnail('medium');          // Medium resolution (default 300px x 300px max)
+	the_post_thumbnail('medium_large');    // Medium Large resolution (default 768px x 0px max)
+	the_post_thumbnail('large');           // Large resolution (default 1024px x 1024px max)
+	the_post_thumbnail('full');            // Original image resolution (unmodified)
+	set_post_thumbnail_size( 401, 401 );
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments
@@ -141,7 +146,7 @@ function orangecooltheme_fonts_url() {
 
 	/* translators: If there are characters in your language that are not supported by Montserrat, translate this to 'off'. Do not translate into your own language. */
 	if ( 'off' !== _x( 'on', 'Montserrat font: on or off', 'twentysixteen' ) ) {
-		$fonts[] = 'Montserrat:400,700';
+		$fonts[] = 'Montserrat';
 	}
 
 	/* translators: If there are characters in your language that are not supported by Inconsolata, translate this to 'off'. Do not translate into your own language. */
@@ -197,6 +202,7 @@ function orangecooltheme_scripts() {
 	wp_enqueue_script( 'popper.min', get_template_directory_uri() . '/js/popper.min.js', array ( 'jquery' ), '1.1', true);
 	wp_enqueue_script( 'masonry.pkgd.min', get_template_directory_uri() . '/js/masonry.pkgd.min.js', array ( 'jquery' ), '4.2.2', true);
 	wp_enqueue_script( 'isotope.pkgd.min', get_template_directory_uri() . '/js/isotope.pkgd.min.js', array ( 'jquery' ), '3.0.6', true);
+	wp_enqueue_script( 'infinite-scroll.pkgd.min', get_template_directory_uri() . '/js/infinite-scroll.pkgd.min.js', array ( 'jquery' ), '3.0.5', true);
 	wp_enqueue_script( 'bootstrap.min', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array ( 'jquery' ), '1.1', true);
 	wp_enqueue_script( 'teste', get_template_directory_uri() . '/js/teste.js', array ( 'jquery' ), '1.0', true);
 }
@@ -210,7 +216,7 @@ function isotope_category($thelist){
   }
 
   foreach ($categories as $category ) {
-    $output .= '<a class="badge cat-badge-link category-' . $category->slug . '" href="' . esc_url(get_category_link($category->term_id)) . '">' . $category->name . '</a>';
+    $output .= '<a class="mr-1 badge cat-badge-link category-' . $category->slug . '" href="' . esc_url(get_category_link($category->term_id)) . '">' . $category->name . '</a>';
   }
 
   return $output;

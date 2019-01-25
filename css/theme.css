@@ -99,8 +99,30 @@ a.blog-header-logo:link {
 	margin-bottom: 15px;
 }
 
+/* reveal grid after images loaded */
+.grid.are-images-unloaded {
+  opacity: 0;
+}
+
+/* hide by default */
+.grid.are-images-unloaded .image-grid-item {
+  opacity: 0;
+}
+
+.page-load-status {
+  display: none; /* hidden by default */
+  padding-top: 20px;
+  border-top: 1px solid #DDD;
+  text-align: center;
+  color: #777;
+}
+
 .card-body{
 	background-color: #f4f4f0;
+}
+
+.icon-sticky{
+	color: #F06543;
 }
 
 a.cat-badge-link:link, a.cat-badge-link:visited{
@@ -199,7 +221,7 @@ a.footer-link:hover, a.footer-link:active{
 	text-decoration: none;
 }
 
-div.sticky {
+div.sticky-nav {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;

@@ -31,7 +31,7 @@
       </header>
     </div>
 
-    <div class="container sticky mb-4" id="filters">
+    <div class="container sticky-nav mb-4" id="filters">
       <ul class="filter nav justify-content-center mt-1" data-filter-group="posts">
         <li class="nav-item">
           <button type="button" class="btn btn-link" data-filter="">Todos</button>
@@ -68,27 +68,6 @@
             <button type="button" class="btn btn-link" data-filter=".pc">PC</button>
           </li>
         </ul>
-      </div>
-    </div>
-
-    <div class="container mb-3">
-      <div class="header-title">Destaques</div>
-      <div class="row mt-2">
-
-        <?php
-          $args = array (
-          'showposts' => '2',
-          'category_name' => 'destaque',
-          );
-          $the_query = new WP_Query( $args );
-
-          if ( have_posts()) : 
-            while ( $the_query->have_posts() ) : $the_query->the_post();
-              get_template_part( 'template-parts/header/featured', get_post_format() );
-            endwhile;
-           endif;
-          wp_reset_query(); ?>
-
       </div>
     </div>
 
