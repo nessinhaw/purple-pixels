@@ -7,7 +7,9 @@
       		else
       			get_template_part( 'template-parts/post/content', get_post_format() );
    		endwhile; ?>
-   		<div class="col navigation">
+   		</div>
+
+	   	<div class="col-sm-12 col-md-12 col-lg-3 navigation">
 			<div class="alignleft"><?php previous_posts_link('&laquo; Previous Entries') ?></div>
 			<div class="alignright"><?php next_posts_link('Next Entries &raquo;','') ?></div>
 		</div>
